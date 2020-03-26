@@ -1,2 +1,2 @@
-# Reg-Auth-Form
-basic npm package with Sign up/in swap form
+# Sign up/Login Form
+Basic npm package with Sign up/in swap form
