@@ -1,5 +1,5 @@
 {
-  "name": "register-form",
+  "name": "@login/register-form",
   "version": "1.0.0",
   "description": "Basic npm package with Sign up/in swap form",
   "main": "index.js",
