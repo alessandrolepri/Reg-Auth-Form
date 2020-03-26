@@ -252,6 +252,7 @@ input::placeholder {
     text-transform: uppercase;
     color: #e8716d;
     letter-spacing: 0.1rem;
+    text-align: center;
 }
 
 .user_options-forms .forms_field:not(:last-of-type) {
@@ -279,10 +280,11 @@ input::placeholder {
     display: -webkit-box;
     display: flex;
     -webkit-box-pack: justify;
-    justify-content: space-between;
+    // justify-content: space-between;
     -webkit-box-align: center;
     align-items: center;
     margin-top: 35px;
+    flex-direction: column-reverse;
 }
 
 .user_options-forms .forms_buttons-forgot {
@@ -292,6 +294,7 @@ input::placeholder {
     text-decoration: underline;
     -webkit-transition: color 0.2s ease-in-out;
     transition: color 0.2s ease-in-out;
+    padding-top: 15px;
 }
 
 .user_options-forms .forms_buttons-forgot:hover {
@@ -335,9 +338,17 @@ input::placeholder {
     transform: translate3d(120px, 0, 0);
 }
 
+.user_options-text {
+    border-radius: 140px;
+}
+
+div#user_options-forms {
+    border-radius: 200px;
+}
+
 .user_options-forms .user_forms-signup .forms_buttons {
     -webkit-box-pack: end;
-    justify-content: flex-end;
+    justify-content: center;
 }
 
 .user_options-forms .user_forms-login {
