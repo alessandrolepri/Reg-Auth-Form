@@ -1,0 +1,59 @@
+{
+  "name": "register-form",
+  "version": "1.0.0",
+  "description": "Basic npm package with Sign up/in swap form",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "watch 'npm run build' src",
+    "serve": "webpack-dev-server --mode=development",
+    "build": "webpack -p",
+    "start": "node index"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alessandrolepri/Register-Form.git"
+  },
+  "keywords": [
+    "npm",
+    "package",
+    "login",
+    "sign-up",
+    "sign-in",
+    "form",
+    "registration",
+    "javascript"
+  ],
+  "author": "Alessandro Lepri",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alessandrolepri/Register-Form/issues"
+  },
+  "homepage": "https://github.com/alessandrolepri/Register-Form#readme",
+  "dependencies": {
+    "dotenv-webpack": "^1.7.0",
+    "express": "^4.17.1",
+    "heroku": "^7.39.1",
+    "html-webpack-plugin": "^4.0.2",
+    "promise": "^8.1.0",
+    "terser": "^4.6.7"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.9.0",
+    "@babel/preset-env": "^7.9.0",
+    "@webpack-cli/serve": "^0.2.0",
+    "babel-loader": "^8.1.0",
+    "css-loader": "^3.4.2",
+    "file-loader": "^6.0.0",
+    "node-sass": "^4.13.1",
+    "style-loader": "^1.1.3",
+    "url-loader": "^4.0.0",
+    "watch": "^1.0.2",
+    "webpack": "^4.42.1",
+    "webpack-cli": "^3.3.11",
+    "webpack-dev-server": "^3.10.3"
+  },
+  "resolutions": {
+    "terser": "3.14.1"
+  }
+}
